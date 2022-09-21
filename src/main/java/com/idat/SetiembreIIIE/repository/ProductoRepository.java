@@ -1,8 +1,8 @@
-package com.idat.StiembreIIIE.repository;
+package com.idat.SetiembreIIIE.repository;
 
 import java.util.List;
 
-import com.idat.StiembreIIIE.model.Producto;
+import com.idat.SetiembreIIIE.model.Producto;
 
 public interface ProductoRepository {
 	

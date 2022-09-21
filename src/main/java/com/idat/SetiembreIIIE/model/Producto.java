@@ -1,4 +1,4 @@
-package com.idat.StiembreIIIE.model;
+package com.idat.SetiembreIIIE.model;
 
 public class Producto {
 	

@@ -1,13 +1,14 @@
-package com.idat.StiembreIIIE.repository;
+package com.idat.SetiembreIIIE.repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
+//import org.springframework.stereotype.Service;
 
-import com.idat.StiembreIIIE.model.Producto;
+import com.idat.SetiembreIIIE.model.Producto;
 
-@Service
+@Repository
 public class ProductoRepositoryImp implements ProductoRepository {
 	
 	List<Producto> almacenamiento = new ArrayList<>();
@@ -22,9 +23,9 @@ public class ProductoRepositoryImp implements ProductoRepository {
 	@Override
 	public void actualizar(Producto producto) {
 		// TODO Auto-generated method stub
-		Producto existeActaulizar = obtener(producto.getIdProducto());
-		eliminar(producto.getIdProducto());
-		almacenamiento.add(existeActaulizar);
+		Producto existeActualizar = obtener(producto.getIdProducto());
+		eliminar(existeActualizar.getIdProducto());
+		almacenamiento.add(producto);
 
 	}
 

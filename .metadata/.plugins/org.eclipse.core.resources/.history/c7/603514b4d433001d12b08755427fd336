@@ -1,0 +1,19 @@
+package com.idat.StiembreIIIE.repository;
+
+import com.idat.StiembreIIIE.model.Producto;
+
+public class ProductoRepositoryImp implements ProductoRepository {
+
+	@Override
+	public void guardar(Producto producto) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void actualizar(Producto producto) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
